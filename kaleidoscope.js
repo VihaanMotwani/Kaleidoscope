@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let mouseControl = false;
     let mouseX = 0, mouseY = 0;
 
-    canvas.style.background = 'url(frame.png)'; // Add a decorative frame background
-    canvas.style.borderRadius = '50%'; // Circular frame
+    //canvas.style.background = 'url(frame.png)'; // Add a decorative frame background
+    //canvas.style.borderRadius = '50%'; // Circular frame
 
     images.forEach(src => {
         const img = new Image();
