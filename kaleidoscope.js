@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentImageIndex = 0;
     let rotation = 0;
     let rotating = false;
-    const images = ['/Users/vihaanmotwani/Documents/HL1.png', '/Users/vihaanmotwani/Documents/HL2.jpeg', '/Users/vihaanmotwani/Documents/HL3.jpeg']; // Add your image paths here
+    const images = ['HL1.png', 'HL2.jpeg', 'HL3.jpeg']; // Add your image paths here
     const imageElements = [];
     let mouseControl = false;
     let mouseX = 0, mouseY = 0;
